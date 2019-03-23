@@ -22,9 +22,10 @@
 
 .main-Page {
     display: flex;
+    flex-direction: column;
     width: 80%;
     background-color: white;
-    height: 960px;
+    height: 100vh;
 }
 
 .header {
@@ -90,4 +91,21 @@ ul {
 
 .like {
     padding: 10px 15px;
+}
+
+.content {
+    background-color: #efefef;
+    width:100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagesFeatured img
+{
+    padding: 10px 10px;
+}
+.imagesFeed img
+{
+  padding: 10px 10px;
+
 }
