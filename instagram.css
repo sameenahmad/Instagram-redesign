@@ -8,18 +8,56 @@
     display: flex;
     width: 100%;
     background-color: white;
+    
 }
 
 .left-Panel {
     display: flex;
     flex-direction: column;
     width: 20%;
-    height: 100vh;
     background-color: whitesmoke;
     justify-content: flex-start;
+    align-items: center;}
+
+.logo{
+    padding-top: 20px;
+    margin-left: 5px;
+}
+.profilePicture
+{
+
+    border-radius: 50%;
+    border: 2px solid #FF4E6A;
+margin-top: 50px;
+}
+h5
+{ font-family: 'Open Sans', sans-serif;
+font-weight: bold;
+}
+p{
+    padding-top: 10px;
+    color: gray;
+}
+.profileStatusText
+{
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+    justify-content: space-between;
+    width: 80%;
+    margin-top:10%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     align-items: center
 }
+#number
+{ width: 75%;
+     margin-top: 5%;
+   color: gray;
+   font-weight: normal;
+}
 
+ 
 .main-Page {
     display: flex;
     flex-direction: column;
@@ -28,6 +66,29 @@
     height: 100vh;
 }
 
+.menuBar
+{
+margin-top: 20%;
+display: flex;
+flex-direction: column;
+width:80%;
+height: 100vh;
+align-items: center;
+}
+.menuBar>ul
+{ list-style:none ;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+.list li
+{
+    padding-top: 30px; 
+}
+.menuIcons
+{
+    padding-right: 5px;
+}
 .header {
     background: white;
     display: flex;
@@ -104,7 +165,7 @@ ul {
 }
 
 .heading-1 {
-    width: 75%;
+    width: 80%;
     background-color: White;
     display: flex;
     justify-content: space-between;
@@ -118,6 +179,7 @@ ul {
 .featuredStories {
     font-family: 'Lato', sans-serif;
     font-size: 1.5em;
+    margin-left: 25px;
 }
 
 .popularStories {
@@ -131,6 +193,7 @@ ul {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
 .images-1 {
     width: 80%;
     background-color: white;
@@ -139,8 +202,9 @@ ul {
     margin-left: 50px;
     margin-right: 50px;
     position: absolute;
-    top: 8%;
+    top: 9%;
     height: 40vh;
+  
 }
 
 .images-1 img {
@@ -159,7 +223,7 @@ ul {
     top: 60%;
 }
 .menu{
-    padding-right:  20px;
+    padding-right: 20px;
 }
 
 
@@ -174,4 +238,8 @@ ul {
    {
     padding: 10px 20px;
     border-radius: 10%;
+   }
+   .left-Panel
+   {
+    display: flexl
    }
