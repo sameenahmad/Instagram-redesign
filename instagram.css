@@ -6,7 +6,7 @@
 
 .container {
   display: flex;
-  width: 100%;
+  width: 90%;
   background-color: white;
 }
 
@@ -117,10 +117,6 @@ p {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-#search {
-  margin-right: 10px;
-}
-
 #mic {
   margin-left: 220px;
 }
@@ -129,7 +125,7 @@ p {
   width: 30%;
   justify-content: flex-end;
   display: flex;
-  margin-right: 80px;
+  
   align-items: center;
 }
 
@@ -144,10 +140,11 @@ ul {
 }
 
 .createNewPost {
-  padding: 8px 20px;
+  padding: 8px 10px;
   background-color: #ff4e6a;
   border-radius: 5%;
   height: 15%;
+  width: 150%;
   color: #fdecee;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -171,7 +168,6 @@ ul {
   display: flex;
   justify-content: space-between;
   margin-left: 50px;
-  margin-right: 50px;
   position: absolute;
   top: 0;
 }
@@ -184,8 +180,9 @@ ul {
 
 .popularStories {
   padding: 10px 10px;
+  margin-bottom: 2rem;
   border: 1px solid #fbfbfb;
-  width: 15%;
+  width: 20%;
   color: #c4cbd1;
   align-items: center;
   background-color: #fff;
@@ -199,29 +196,27 @@ ul {
   display: flex;
   justify-content: flex-start;
   margin-left: 50px;
-  margin-right: 50px;
   position: absolute;
-  top: 9%;
+  top: 15%;
   height: 40vh;
 }
 
 .images-1 img {
   margin: 0rem 0.5rem;
   border-radius: 4px;
-  width: 250px;
-  height: 280px;
+  width: 200px;
+  height: 250px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px 2px;
 }
 
 .heading-2 {
-  width: 75%;
+  width: 85%;
   background-color: white;
   display: flex;
   justify-content: space-between;
   margin-left: 50px;
-  margin-right: 50px;
   position: absolute;
-  top: 60%;
+  top: 70%;
 }
 .menu {
   padding-right: 20px;
@@ -229,9 +224,9 @@ ul {
 
 .images-2 {
   position: absolute;
-  top: 70%;
+  top: 80%;
   margin-left: 50px;
-  margin-right: 50px;
+
 }
 
 .images-2 img {
